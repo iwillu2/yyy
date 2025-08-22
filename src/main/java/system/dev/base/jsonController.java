@@ -13,7 +13,7 @@ public class jsonController {
 	@Autowired
 	JSONService jService;
 	
-	@GetMapping("/")
+	@GetMapping("/aaa")
 	public String getDataAll() {
 		
 		List<JSONPeople> listJPeople = jService.readJsonArray("people.json");
